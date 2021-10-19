@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrackingVehicleUser</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+</resources>
