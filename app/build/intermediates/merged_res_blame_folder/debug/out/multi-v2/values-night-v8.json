@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\com.vanth.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\vanth\\.gradle\\caches\\transforms-3\\4ecd700c773cf5624732e3577602f1ea\\transformed\\appcompat-1.3.1\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,14 +38,14 @@
                     }
                 },
                 {
-                    "source": "C:\\com.vanth.Android\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "14",
                         "endColumns": "12",
-                        "endOffsets": "820"
+                        "endOffsets": "834"
                     },
                     "to": {
                         "startLines": "25",

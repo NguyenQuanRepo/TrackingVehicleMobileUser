@@ -6,52 +6,67 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml
+8-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml
+9-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:5:5-23:19
-12        android:allowBackup="true"
-12-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\vanth\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/Theme.TrackingVehicleUser" >
-21-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:11:9-57
-22        <activity android:name="com.vanth.trackingvehicleuser.SignUpActivity" />
-22-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:12:9-51
-22-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:12:19-49
-23        <activity android:name="com.vanth.trackingvehicleuser.LoginActivity" />
-23-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:13:9-50
-23-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:13:19-48
-24        <activity
-24-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:14:9-22:20
-25            android:name="com.vanth.trackingvehicleuser.WelcomeActivity"
-25-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:15:13-44
-26            android:exported="true" >
-26-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:16:13-36
-27            <intent-filter>
-27-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:17:13-21:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:18:17-69
-28-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:18:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:20:17-77
-30-->C:\com.vanth.Android\app\src\main\AndroidManifest.xml:20:27-74
-31            </intent-filter>
-32        </activity>
-33    </application>
-34
-35</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:6:5-80
+12-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:7:5-81
+13-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:8:5-79
+14-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:10:5-30:19
+17        android:allowBackup="true"
+17-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\vanth\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.TrackingVehicleUser"
+26-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:16:9-57
+27        android:usesCleartextTraffic="true" >
+27-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:17:9-44
+28        <activity android:name="com.vanth.trackingvehicleuser.SignUpActivity" />
+28-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:19:9-52
+28-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:19:19-49
+29        <activity android:name="com.vanth.trackingvehicleuser.LoginActivity" />
+29-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:20:9-51
+29-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:20:19-48
+30        <activity
+30-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:21:9-29:20
+31            android:name="com.vanth.trackingvehicleuser.WelcomeActivity"
+31-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:22:13-44
+32            android:exported="true" >
+32-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:23:13-36
+33            <intent-filter>
+33-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:25:17-69
+34-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:27:17-77
+36-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>
