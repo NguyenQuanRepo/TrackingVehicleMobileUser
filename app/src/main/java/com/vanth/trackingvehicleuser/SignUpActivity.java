@@ -104,7 +104,7 @@ public class SignUpActivity extends AppCompatActivity {
         registAccountRequest.setName(name.getText().toString().trim());
         registAccountRequest.setGender(gender_male.isChecked());
         registAccountRequest.setEmail(email.getText().toString().trim());
-        registAccountRequest.setPhone(email.getText().toString());
+        registAccountRequest.setPhone(phone.getText().toString());
         registAccountRequest.setUsername(username.getText().toString().trim());
         registAccountRequest.setPassword(password.getText().toString());
 
