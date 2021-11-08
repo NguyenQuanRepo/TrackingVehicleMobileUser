@@ -11,6 +11,8 @@ com/vanth/trackingvehicleuser/WelcomeActivity.java
  com.vanth.trackingvehicleuser.WelcomeActivity$1
 com/vanth/trackingvehicleuser/Entity/Vehicle.java
  com.vanth.trackingvehicleuser.Entity.Vehicle
+com/vanth/trackingvehicleuser/Request/RegistAccountRequest.java
+ com.vanth.trackingvehicleuser.Request.RegistAccountRequest
 com/vanth/trackingvehicleuser/API/AsyncTaskDownloadImage.java
  com.vanth.trackingvehicleuser.API.AsyncTaskDownloadImage
 com/vanth/trackingvehicleuser/LoginActivity.java
@@ -26,6 +28,8 @@ com/vanth/trackingvehicleuser/Entity/Account.java
  com.vanth.trackingvehicleuser.Entity.Account
 com/vanth/trackingvehicleuser/SignUpActivity.java
  com.vanth.trackingvehicleuser.SignUpActivity
+ com.vanth.trackingvehicleuser.SignUpActivity$1
+ com.vanth.trackingvehicleuser.SignUpActivity$2
 com/vanth/trackingvehicleuser/Entity/User.java
  com.vanth.trackingvehicleuser.Entity.User
 com/vanth/trackingvehicleuser/API/ApiUtils.java

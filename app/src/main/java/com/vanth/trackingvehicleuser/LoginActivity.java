@@ -85,10 +85,9 @@ import retrofit2.Response;
 
     void signin()
     {
+        if (!validateData()) return;
         CustumDialog custumDialog = new CustumDialog(this);
         custumDialog.startLoadingdialog();
-
-
         apiService = ApiUtils.getApiService();
         apiService.sign_in(getLogin()).enqueue(new Callback<Boolean>() {
             @Override
@@ -108,8 +107,23 @@ import retrofit2.Response;
             @Override
             public void onFailure(Call<Boolean> call, Throwable t) {
                 Toast.makeText(LoginActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
-               custumDialog.dismissdialog();
+                custumDialog.dismissdialog();
             }
         });
+    }
+
+    boolean validateData()
+    {
+        if (username.getText().toString().trim().length() == 0)
+        {
+            Toast.makeText(LoginActivity.this, "Vui lòng nhập tên đăng nhập", Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        if (password.getText().toString().trim().length() == 0)
+        {
+            Toast.makeText(LoginActivity.this, "Vui lòng nhập mật khẩu", Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        return true;
     }
 }

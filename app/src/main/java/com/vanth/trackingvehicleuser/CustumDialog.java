@@ -3,22 +3,31 @@ package com.vanth.trackingvehicleuser;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.view.LayoutInflater;
+
+import dmax.dialog.SpotsDialog;
 
 public class CustumDialog {
     private Activity activity;
     private AlertDialog dialog;
+    private Context context;
 
 
     // constructor of dialog class
     // with parameter activity
-    CustumDialog(Activity myActivity) {
-        activity = myActivity;
+//    CustumDialog(Activity myActivity) {
+//        activity = myActivity;
+//    }
+    CustumDialog(Context context)
+    {
+        this.context = context;
+        dialog = new SpotsDialog(context,R.style.CustomProgress);
     }
 
     @SuppressLint("InflateParams")
     void startLoadingdialog() {
-
+/*
         // adding ALERT Dialog builder object and passing activity as parameter
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
 
@@ -27,8 +36,10 @@ public class CustumDialog {
         builder.setView(inflater.inflate(R.layout.custom_progress_dialog, null));
         builder.setCancelable(true);
 
-        dialog = builder.create();
+        dialog = builder.create(); */
         dialog.show();
+
+
     }
 
     // dismiss method
