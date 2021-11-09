@@ -24,7 +24,7 @@
 14-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:8:22-76
 15
 16    <application
-16-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:10:5-30:19
+16-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:10:5-31:19
 17        android:allowBackup="true"
 17-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,29 +44,32 @@
 26-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:16:9-57
 27        android:usesCleartextTraffic="true" >
 27-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:17:9-44
-28        <activity android:name="com.vanth.trackingvehicleuser.SignUpActivity" />
-28-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:19:9-52
-28-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:19:19-49
-29        <activity android:name="com.vanth.trackingvehicleuser.LoginActivity" />
-29-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:20:9-51
-29-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:20:19-48
-30        <activity
-30-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:21:9-29:20
-31            android:name="com.vanth.trackingvehicleuser.WelcomeActivity"
-31-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:22:13-44
-32            android:exported="true" >
-32-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:23:13-36
-33            <intent-filter>
-33-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:24:13-28:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:25:17-69
-34-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:25:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:27:17-77
-36-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:27:27-74
-37            </intent-filter>
-38        </activity>
-39    </application>
-40
-41</manifest>
+28        <activity android:name="com.vanth.trackingvehicleuser.Activities.MainActivity" />
+28-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:19:9-61
+28-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:19:19-58
+29        <activity android:name="com.vanth.trackingvehicleuser.Activities.SignUpActivity" />
+29-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:20:9-63
+29-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:20:19-60
+30        <activity android:name="com.vanth.trackingvehicleuser.Activities.LoginActivity" />
+30-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:21:9-62
+30-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:21:19-59
+31        <activity
+31-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:22:9-30:20
+32            android:name="com.vanth.trackingvehicleuser.Activities.WelcomeActivity"
+32-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:23:13-55
+33            android:exported="true" >
+33-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:24:13-36
+34            <intent-filter>
+34-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:26:17-69
+35-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:28:17-77
+37-->E:\Android Project\TrackingVehicleMobileUser\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>

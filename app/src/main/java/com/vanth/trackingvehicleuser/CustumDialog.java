@@ -19,14 +19,14 @@ public class CustumDialog {
 //    CustumDialog(Activity myActivity) {
 //        activity = myActivity;
 //    }
-    CustumDialog(Context context)
+    public CustumDialog(Context context)
     {
         this.context = context;
         dialog = new SpotsDialog(context,R.style.CustomProgress);
     }
 
     @SuppressLint("InflateParams")
-    void startLoadingdialog() {
+    public void startLoadingdialog() {
 /*
         // adding ALERT Dialog builder object and passing activity as parameter
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
@@ -43,7 +43,7 @@ public class CustumDialog {
     }
 
     // dismiss method
-    void dismissdialog() {
+    public void dismissdialog() {
         dialog.dismiss();
     }
 }

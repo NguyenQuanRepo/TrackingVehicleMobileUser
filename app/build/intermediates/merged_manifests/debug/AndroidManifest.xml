@@ -25,10 +25,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.TrackingVehicleUser"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.vanth.trackingvehicleuser.SignUpActivity" />
-        <activity android:name="com.vanth.trackingvehicleuser.LoginActivity" />
+        <activity android:name="com.vanth.trackingvehicleuser.Activities.MainActivity" />
+        <activity android:name="com.vanth.trackingvehicleuser.Activities.SignUpActivity" />
+        <activity android:name="com.vanth.trackingvehicleuser.Activities.LoginActivity" />
         <activity
-            android:name="com.vanth.trackingvehicleuser.WelcomeActivity"
+            android:name="com.vanth.trackingvehicleuser.Activities.WelcomeActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

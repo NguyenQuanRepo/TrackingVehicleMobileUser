@@ -12,16 +12,16 @@
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-xhdpi\\ic_phone_round.png"
     },
     {
-        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_username.png.flat",
-        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_username.png"
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\drawable_backgroud.png.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\drawable\\backgroud.png"
     },
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_phone_round.png.flat",
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_phone_round.png"
     },
     {
-        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\drawable_backgroud.png.flat",
-        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\drawable\\backgroud.png"
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_username.png.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_username.png"
     },
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_phone.png.flat",
@@ -68,6 +68,14 @@
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-mdpi\\ic_user_round.png"
     },
     {
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logout.xml.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\menu_nav_item.xml.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\menu\\nav_item.xml"
+    },
+    {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_phone.png.flat",
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_phone.png"
     },
@@ -84,6 +92,10 @@
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-mdpi\\ic_username.png"
     },
     {
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\layout_main_layout.xml.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -94,6 +106,10 @@
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_user.xml.flat",
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_user.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\drawable_crown_icon.png.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\drawable\\crown_icon.png"
     },
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_user.png.flat",
@@ -162,6 +178,10 @@
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_email.xml.flat",
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_email.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_username.png.flat",
@@ -278,6 +298,10 @@
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_phone.png.flat",
         "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\mipmap-hdpi\\ic_phone.png"
+    },
+    {
+        "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_user_header_navigation.xml.flat",
+        "source": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\src\\main\\res\\layout\\layout_user_header_navigation.xml"
     },
     {
         "merged": "E:\\Android Project\\TrackingVehicleMobileUser\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",

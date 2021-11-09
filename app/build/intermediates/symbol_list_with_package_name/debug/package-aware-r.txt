@@ -260,6 +260,22 @@ attr closeIconStartPadding
 attr closeIconTint
 attr closeIconVisible
 attr closeItemLayout
+attr cnb_addBottomInset
+attr cnb_addLeftInset
+attr cnb_addRightInset
+attr cnb_addTopInset
+attr cnb_backgroundColor
+attr cnb_badgeColor
+attr cnb_iconColor
+attr cnb_iconSize
+attr cnb_iconTintMode
+attr cnb_menuResource
+attr cnb_minExpandedWidth
+attr cnb_orientationMode
+attr cnb_radius
+attr cnb_textAppearance
+attr cnb_textColor
+attr cnb_unselectedColor
 attr collapseContentDescription
 attr collapseIcon
 attr collapsedSize
@@ -1104,6 +1120,8 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
+color cnb_default_badge_color
+color cnb_default_unselected_color
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1363,6 +1381,14 @@ dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
 dimen clock_face_margin_start
+dimen cnb_badge_size
+dimen cnb_badge_size_numberless
+dimen cnb_badge_stroke_width
+dimen cnb_badge_text_size
+dimen cnb_double_space
+dimen cnb_icon_size
+dimen cnb_medium_space
+dimen cnb_space
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -1794,6 +1820,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable crown_icon
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1803,9 +1830,11 @@ drawable footer
 drawable header
 drawable ic_clock_black_24dp
 drawable ic_email_foreground
+drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1958,6 +1987,9 @@ id buttonPanel
 id cache_measures
 id cancel_button
 id carryVelocity
+id cbn_item_internal_container
+id cbn_item_notification_count
+id cbn_item_title
 id center
 id center_horizontal
 id center_vertical
@@ -1969,6 +2001,7 @@ id chip
 id chip1
 id chip2
 id chip3
+id chipNavigation
 id chip_group
 id chronometer
 id circle_center
@@ -1977,6 +2010,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id cnb_item_icon
 id collapseActionView
 id confirm_button
 id constraint
@@ -2020,6 +2054,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawerLayoutHomePage
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2061,6 +2096,7 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id horizontal
 id horizontal_only
 id icon
 id icon_group
@@ -2087,6 +2123,7 @@ id line1
 id line3
 id linear
 id listMode
+id listViewHomePage
 id list_item
 id loadingPanel
 id login_buttonForgetPassword
@@ -2150,11 +2187,17 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id navigationView
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
+id navigation_checkOrder
+id navigation_contact
 id navigation_header_container
+id navigation_home
+id navigation_info
+id navigation_logout
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -2192,6 +2235,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewProctHomePage
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2310,6 +2354,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbarHomePage
 id top
 id topPanel
 id touch_outside
@@ -2321,13 +2366,16 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvHeaderNavLogiNname
 id tv_Slogan
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id vertical_only
+id viewFlipper
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -2412,6 +2460,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout cnb_horizontal_menu_item
+layout cnb_vertical_menu_item
 layout custom_dialog
 layout custom_progress_dialog
 layout design_bottom_navigation_item
@@ -2430,8 +2480,10 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog
+layout layout_user_header_navigation
 layout loading_view
 layout login_layout
+layout main_layout
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2503,6 +2555,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout welcome_layout
+menu nav_item
 mipmap ic_email
 mipmap ic_email_round
 mipmap ic_launcher
@@ -3374,6 +3427,8 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable ChipMenuItem android_icon android_enabled android_id android_title android_contentDescription cnb_backgroundColor cnb_iconColor cnb_iconTintMode cnb_textColor
+styleable ChipNavigationBar cnb_addBottomInset cnb_addLeftInset cnb_addRightInset cnb_addTopInset cnb_badgeColor cnb_iconSize cnb_menuResource cnb_minExpandedWidth cnb_orientationMode cnb_radius cnb_textAppearance cnb_unselectedColor
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

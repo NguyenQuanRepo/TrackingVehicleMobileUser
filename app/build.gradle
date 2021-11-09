@@ -42,4 +42,7 @@ dependencies {
 
     // Progress Dialog
     implementation'com.github.d-max:spots-dialog:0.4@aar'
+
+    // Navigation
+    implementation 'com.ismaeldivita.chipnavigation:chip-navigation-bar:1.3.2'
 }

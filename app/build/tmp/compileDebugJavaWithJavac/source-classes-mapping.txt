@@ -6,33 +6,35 @@ com/vanth/trackingvehicleuser/BuildConfig.java
  com.vanth.trackingvehicleuser.BuildConfig
 com/vanth/trackingvehicleuser/CustumDialog.java
  com.vanth.trackingvehicleuser.CustumDialog
-com/vanth/trackingvehicleuser/WelcomeActivity.java
- com.vanth.trackingvehicleuser.WelcomeActivity
- com.vanth.trackingvehicleuser.WelcomeActivity$1
 com/vanth/trackingvehicleuser/Entity/Vehicle.java
  com.vanth.trackingvehicleuser.Entity.Vehicle
+com/vanth/trackingvehicleuser/Activities/WelcomeActivity.java
+ com.vanth.trackingvehicleuser.Activities.WelcomeActivity
+ com.vanth.trackingvehicleuser.Activities.WelcomeActivity$1
+com/vanth/trackingvehicleuser/Entity/User.java
+ com.vanth.trackingvehicleuser.Entity.User
 com/vanth/trackingvehicleuser/Request/RegistAccountRequest.java
  com.vanth.trackingvehicleuser.Request.RegistAccountRequest
 com/vanth/trackingvehicleuser/API/AsyncTaskDownloadImage.java
  com.vanth.trackingvehicleuser.API.AsyncTaskDownloadImage
-com/vanth/trackingvehicleuser/API/ApiUtils.java
- com.vanth.trackingvehicleuser.API.ApiUtils
- com.vanth.trackingvehicleuser.API.ApiUtils$1
- com.vanth.trackingvehicleuser.API.ApiUtils$DelayCallback
 com/vanth/trackingvehicleuser/API/ApiService.java
  com.vanth.trackingvehicleuser.API.ApiService
 com/vanth/trackingvehicleuser/API/RetrofitClient.java
  com.vanth.trackingvehicleuser.API.RetrofitClient
 com/vanth/trackingvehicleuser/Entity/Account.java
  com.vanth.trackingvehicleuser.Entity.Account
-com/vanth/trackingvehicleuser/Entity/User.java
- com.vanth.trackingvehicleuser.Entity.User
-com/vanth/trackingvehicleuser/LoginActivity.java
- com.vanth.trackingvehicleuser.LoginActivity
- com.vanth.trackingvehicleuser.LoginActivity$1
- com.vanth.trackingvehicleuser.LoginActivity$2
- com.vanth.trackingvehicleuser.LoginActivity$3
-com/vanth/trackingvehicleuser/SignUpActivity.java
- com.vanth.trackingvehicleuser.SignUpActivity
- com.vanth.trackingvehicleuser.SignUpActivity$1
- com.vanth.trackingvehicleuser.SignUpActivity$2
+com/vanth/trackingvehicleuser/Activities/SignUpActivity.java
+ com.vanth.trackingvehicleuser.Activities.SignUpActivity
+ com.vanth.trackingvehicleuser.Activities.SignUpActivity$1
+ com.vanth.trackingvehicleuser.Activities.SignUpActivity$2
+com/vanth/trackingvehicleuser/API/ApiUtils.java
+ com.vanth.trackingvehicleuser.API.ApiUtils
+ com.vanth.trackingvehicleuser.API.ApiUtils$1
+ com.vanth.trackingvehicleuser.API.ApiUtils$DelayCallback
+com/vanth/trackingvehicleuser/Activities/LoginActivity.java
+ com.vanth.trackingvehicleuser.Activities.LoginActivity
+ com.vanth.trackingvehicleuser.Activities.LoginActivity$1
+ com.vanth.trackingvehicleuser.Activities.LoginActivity$2
+ com.vanth.trackingvehicleuser.Activities.LoginActivity$3
+com/vanth/trackingvehicleuser/Activities/MainActivity.java
+ com.vanth.trackingvehicleuser.Activities.MainActivity
