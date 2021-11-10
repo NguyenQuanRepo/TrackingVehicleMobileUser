@@ -50,3 +50,4 @@ public class WelcomeActivity extends AppCompatActivity {
         },SPLASH_TIME_OUT);
     }
 }
+
